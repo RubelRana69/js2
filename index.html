@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS links-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+
+    <title>JavaScript</title>
+  </head>
+  <body>
+       <div class="container">
+         <h1 class="text-warning">Change the color on click...</h1>
+         <button class="btn btn-primary" onclick="clrChange()">Click Here</button>
+         <p id="r">Dhaka is the capital of Bangladesh.</p>
+       </div> 
+         <div class="container">
+         <h1 class="text-warning">Change the Image on click...</h1>
+         <button class="btn btn-primary" onmouseover="imgOne()">Image1</button>
+         <button class="btn btn-primary" onmouseover="imgTwo()">Image2</button>
+         <br>
+         <img src="images/Jaal khabar (2).png" id="img">
+       </div> 
+
+       <br>
+       <div class="container">
+         <h2 class="text-primary">Change the font on click...</h2>
+         <button class="btn btn-primary" ondblclick="fntChange()">Click Here</button>
+         <p id="s">Dhaka is the capital of Bangladesh.</p>
+       </div>
+        <div class="container">
+         <h2 class="text-danger">Change the border on click...</h2>
+         <button class="btn btn-success" onclick="bdrChange()">Click Here</button>
+         <p id="p">Dhaka is the capital of Bangladesh.</p>
+       </div>
+        <br>
+        <div class="container">
+         <h2 class="text-danger">Show the current date on click...</h2>
+         <button class="btn btn-success" onclick="dtShow()">Click Here</button>
+         <p id="dt">Show date and time</p>   
+       </div>
+       <div class="container">
+         <h1 class="text-info">Call by Class fucntion</h1>
+         <button class="btn-warning" onclick="clFunction()">Click me</button>
+         <p class="cl">Hello Bangladesh.</p>
+         <p class="cl">Hello Bangladesh.</p>
+         <p class="cl">Hello Bangladesh.</p>
+         <p class="cl">Hello Bangladesh.</p>
+       </div>
+       <div class="container">
+        <button class="btn btn-secondary" onclick="prntPage()">Print</button>
+         <p id="print">Print the current page..</p>
+       </div>
+       <div class="container">
+         <button class="btn btn-outline-danger" onclick="welcome()">Click</button>
+       </div>
+       <hr>
+       <div class="container">
+         <button class="btn btn-danger" id="hide">Hide</button>
+         <button class="btn btn-success" id="show">Show</button>
+         <button class="btn btn-primary" id="toggle">Toggle</button>
+         <img src="images/Jaal khabar (2).png">
+       </div>
+
+    <!--JS links-->  
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
